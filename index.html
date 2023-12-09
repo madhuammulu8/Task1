@@ -1,0 +1,52 @@
+<link href="https://fonts.googleapis.com/css2?family=Robotoo:wght@400;700&display=swap" rel="stylesheet">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" type="text/css" href="style.css" /> 
+  <title>Link CSS to HTML</title>
+</head>
+
+<div class="filter-demo">
+   <ul class="filters">
+      <li>
+
+         <div class="hello">
+            Redesign Collections  
+         </div>   
+         <ul class="dropdown dropdown--price">
+            <li>
+               <div class="slider-container" data-role="rangeslider">
+                <h3 id="edittext" contenteditable="true"> 
+                  Attribute 1
+                  </h3>
+                  <div class="slider slider--min">
+                     <input type="range" name="size-min" id="size-min" value="200" min="0" max="1000">
+                  </div>
+
+               </div>
+            </li>
+         </ul>
+
+         <ul class="dropdown dropdown--price">
+            <li>
+               <div class="slider-container" data-role="rangeslider">
+                <h3 id="edittext1" contenteditable="true"> 
+                  Attribute 2
+                  </h3>
+                  <div class="slider slider--min">
+                     <input type="range" name="size-min" id="size-min1" value="200" min="0" max="1000">
+                  </div>
+
+               </div>
+            </li>
+         </ul>
+
+      </li>
+   </ul>
+
+
+   <!-- Add this script tag to the bottom of your HTML, after the inclusion of script.js -->
+   <script src = "script.js"></script>
+</div>
